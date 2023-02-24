@@ -6,6 +6,16 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 public class boj1735 {
+
+    static int gcd(int a, int b) {
+        int a1 = Math.max(a, b);
+        int b1 = Math.min(a, b);
+
+        if (a1 % b1 == 0)
+            return b1;
+        else
+            return gcd(b1, a1 % b1);
+    }
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer stk = new StringTokenizer(br.readLine());
@@ -22,7 +32,10 @@ public class boj1735 {
         s = a*d + b*c;
         p = b*d;
 
-        int v = Math.min(s, p);
+        int gcdNum = gcd(s, p);
+        System.out.println(s/gcdNum+" "+p/gcdNum);
+
+        /*int v = Math.min(s, p);
 
         while (v > 0) {
             if (s % v == 0) {
@@ -34,8 +47,8 @@ public class boj1735 {
                 }
             }
             v -= 1;
-        }
+        }*/
 
-        System.out.println(s + " " + p);
+        //System.out.println(s + " " + p);
     }
 }
