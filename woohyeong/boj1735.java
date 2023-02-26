@@ -7,9 +7,8 @@ import java.util.StringTokenizer;
 
 public class boj1735 {
 
-    static int gcd(int a, int b) {
-        int a1 = Math.max(a, b);
-        int b1 = Math.min(a, b);
+    static int gcd(int a1, int b1) {
+
 
         if (a1 % b1 == 0)
             return b1;
