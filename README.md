@@ -31,7 +31,7 @@ $ git commit -m "문제/날짜/개인의견"
 | 날짜 | 문제이름 | 레벨 | 링크 |
 | --- | --- | --- | --- |
 | 2/24 | 암호제작 | 브론즈3 | https://www.acmicpc.net/problem/1837 |
-| 2/24 | 1 |  |  |
+| 2/24 | 1 | 실버3 | https://www.acmicpc.net/problem/4375 |
 | 2/24 | 30 | 실버4 | https://www.acmicpc.net/problem/10610 |
 | 2/24 | 보이는 점의 개수 | 실버2 | https://www.acmicpc.net/problem/2725 |
 | 2/24 | 수학은 너무 쉬워 | 골드3 | https://www.acmicpc.net/problem/2904 |
